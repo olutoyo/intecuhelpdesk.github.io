@@ -49,29 +49,38 @@ header img {
 }
 
 .container3{
-    background-color: rgb(235, 235, 229);
+    background-color: rgb(201, 210, 236);
     border-radius: 10px;
-    max-width: 80%;
+    /* padding-left: 10px;     */
+    margin-top: 20px;
+    line-height: 48px;
+    max-width: 90%;
     max-height: 60%;
     margin-left: auto;  
-    margin-right: auto;  
-    margin-top: 20px;
+    margin-right: auto;
+        img{
+            position: relative;
+            max-width: 100%;
+            
+           
+        } 
     
 }
 
-.under-construction {
-    display: flex;
-    flex-direction: row;
+/* .under-construction {
     margin-top: 50px;
-    justify-content: center;
-    max-height: 85%;
+    
          
-}
+} */
 
 .image1 {
+    margin-top: 50px;
     position: absolute;
     max-height: 60%;
-    width: fit-content;
+    display: ;
+    margin-left: auto;
+    margin-right: auto;
+    
        
 }
 
@@ -146,6 +155,7 @@ h1, h2, h3 {
     font-size: 20px;
     line-height: 48px;
     margin-top: 30px ; 
+    
     
 }
 
