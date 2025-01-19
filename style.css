@@ -14,12 +14,14 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 20px 10px;
     background-color: rgb(35, 7, 58);
     color: #fff;
     max-width: 80%;
-    max-height: 50vh;
+    max-height: 70vh;
     margin-left: auto;  
     margin-right: auto; 
 }
@@ -29,9 +31,16 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* header img {
-    max-width: 50%;
-    height: auto;
+header img {
+    text-align: center;
+    margin-left: auto;  
+    margin-right: auto; 
+}
+
+/* .container2 img {
+    text-align: center;
+    margin-left: auto;  
+    margin-right: auto; 
 } */
 
 .container {
@@ -46,6 +55,17 @@ header h1 {
     background-color: rgb(203, 200, 206);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+}
+
+.container4 {
+    padding: 20px;
+    max-width: 80%;
+    max-height: 60%;
+    margin-left: auto;  
+    margin-right: auto; 
+    background-color: rgb(203, 200, 206);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px; 
 }
 
 .container3{
