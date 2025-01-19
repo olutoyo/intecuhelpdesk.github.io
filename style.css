@@ -19,7 +19,7 @@ header {
     background-color: rgb(35, 7, 58);
     color: #fff;
     max-width: 80%;
-    max-height: 70vh;
+    max-height: 50vh;
     margin-left: auto;  
     margin-right: auto; 
 }
@@ -29,10 +29,10 @@ header h1 {
     margin-bottom: 10px;
 }
 
-header img {
-    max-width: 100%;
+/* header img {
+    max-width: 50%;
     height: auto;
-}
+} */
 
 .container {
     display: grid;
@@ -49,38 +49,29 @@ header img {
 }
 
 .container3{
-    background-color: rgb(201, 210, 236);
+    background-color: rgb(235, 235, 229);
     border-radius: 10px;
-    /* padding-left: 10px;     */
-    margin-top: 20px;
-    line-height: 48px;
-    max-width: 90%;
+    max-width: 80%;
     max-height: 60%;
     margin-left: auto;  
-    margin-right: auto;
-        img{
-            position: relative;
-            max-width: 100%;
-            
-           
-        } 
+    margin-right: auto;  
+    margin-top: 20px;
     
 }
 
-/* .under-construction {
+.under-construction {
+    display: flex;
+    flex-direction: row;
     margin-top: 50px;
-    
+    justify-content: center;
+    max-height: 85%;
          
-} */
+}
 
 .image1 {
-    margin-top: 50px;
     position: absolute;
     max-height: 60%;
-    display: ;
-    margin-left: auto;
-    margin-right: auto;
-    
+    width: fit-content;
        
 }
 
@@ -106,7 +97,7 @@ header img {
 
 .my-button1 {
     display: inline-block;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-weight: bold;
     padding: 5px 20px;
     background-color: rgb(35, 7, 58);
@@ -155,7 +146,6 @@ h1, h2, h3 {
     font-size: 20px;
     line-height: 48px;
     margin-top: 30px ; 
-    
     
 }
 
