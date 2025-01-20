@@ -196,7 +196,24 @@ h1, h2, h3 {
         font-size: 0.9rem;
     }
 
+    header {
+        max-width: 100%;
+    }
+
     header h1 {
         font-size: 1.2rem;
+    }
+
+    header img {
+    text-align: center;
+    width: 90%; 
+    }
+
+    .container4 {
+        max-width: 100%;
+    } 
+
+    .gmail_image img {
+        max-width: 100%;
     }
 }
